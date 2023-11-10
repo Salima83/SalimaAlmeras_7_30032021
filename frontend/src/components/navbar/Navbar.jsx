@@ -1,4 +1,6 @@
 import "./navbar.scss";
+import reunionemployees from '../../assets/reunionemployees.jpg';
+
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
@@ -29,7 +31,7 @@ const Navbar = () => {
       <EmailOutlinedIcon/>
       <NotificationsOutlinedIcon/>
       <div className="user">
-        <img src="../../Images/reunionemployees.jpg" alt="image"/>
+        <img src={reunionemployees}alt="reunion"/>
         <span> Sali</span>
       </div>
 

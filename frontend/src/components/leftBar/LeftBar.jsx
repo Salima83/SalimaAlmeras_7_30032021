@@ -1,4 +1,5 @@
 import "./leftBar.scss"
+import reunionemployees from '../../assets/reunionemployees.jpg';
 import Friends from "../../assets/1.png";
 import Groups from "../../assets/2.png";
 import Market from "../../assets/3.png";
@@ -20,7 +21,7 @@ const LeftBar = () => {
       <div className="container">
       <div className="menu">
         <div className="user">
-          <img src="../../Images/reunionemployees.jpg" alt=""/>
+        <img src={reunionemployees} alt="reunion"/>
           <span>Sali</span>
           </div>
           <div className="item">
@@ -43,7 +44,12 @@ const LeftBar = () => {
             <img src={Memories} alt="Icon 5" className="icon"/>
             <span>Memories</span>
           </div>
-          <div className="item">
+          </div>
+          <hr/>
+
+          <div className="menu">
+            <span>Your shorcuts</span>
+            <div className="item">
             <img src={Events} alt="Icon 6" className="icon"/>
             <span>Events</span>
           </div>
@@ -63,6 +69,10 @@ const LeftBar = () => {
             <img src={Messages} alt="Icon 10" className="icon"/>
             <span>Messages</span>
           </div>
+          </div>
+          <hr/>
+          <div className="menu">
+            <span>Others  </span>
           <div className="item">
             <img src={Fund} alt="Icon 11" className="icon"/>
             <span>Fund</span>
@@ -75,8 +85,9 @@ const LeftBar = () => {
             <img src={Learning} alt="Icon 13" className="icon"/>
             <span>Learning</span>
           </div>
-        </div>
+        
        </div>
+      </div>
       </div>
   );
 
