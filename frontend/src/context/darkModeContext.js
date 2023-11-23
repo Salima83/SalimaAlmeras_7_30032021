@@ -3,8 +3,8 @@ import { useEffect } from "react";
 export const DarkModeContext = createContext()
 export const DarkModeContextProvider =({children}) =>{
 
-    
-    const [darkMode, setDarkMode]= useState(localStorage.getItem("darkMode") || false);
+const [darkMode, setDarkMode]= useState(
+    JSON.parse(localStorage.getItem("darkMode")) || false);
 //on crée une fonction toggle 
 const toggle = ()=>{
     setDarkMode(!darkMode)
