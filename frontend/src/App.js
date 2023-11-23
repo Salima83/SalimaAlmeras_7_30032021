@@ -14,10 +14,15 @@ import Home from "./pages/home/Home";
 import Profile from "./pages/profile/Profile";
 import { Navigate } from 'react-router-dom'; // Importez Navigate depuis react-router-dom
 import "./style.scss"
+import { useContext } from "react";
+import { DarkModeContext } from "./context/darkModeContext";
 
 
 function App() {
   const currentUser = true;
+//on utilise context reacthook
+  const{darkMode} = useContext(DarkModeContext)
+  console.log(darkMode)
 
   const Layout = ()=>{
     return(

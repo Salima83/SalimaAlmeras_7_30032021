@@ -5,7 +5,7 @@
         position: sticky;
         top: 70px;
         height: calc(100vh - 70px);
-        background-color: themed("background");
+        background-color: themed("backgroundSoft");
         overflow: scroll;
         &::-webkit-scrollbar {
             display: none;
