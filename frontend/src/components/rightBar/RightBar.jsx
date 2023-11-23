@@ -67,6 +67,30 @@ const RightBar = () => {
               <span>Sarah</span>
           </div>
           </div>
+
+          <div className="user">
+          <div className="userInfo">
+              <img src="https://media.istockphoto.com/id/1365436662/fr/photo/fructueux-partenariat.jpg?s=1024x1024&w=is&k=20&c=Yd57sKfruyhca6kiR0G1fu2Omcz942Uz7BnTCK-f3TI=" alt="travaille entre copain" />
+              <div className="online"/>
+              <span>Chahinez</span>
+          </div>
+          </div>
+          <div className="user">
+          <div className="userInfo">
+              <img src="https://media.istockphoto.com/id/1365436662/fr/photo/fructueux-partenariat.jpg?s=1024x1024&w=is&k=20&c=Yd57sKfruyhca6kiR0G1fu2Omcz942Uz7BnTCK-f3TI=" alt="travaille entre copain" />
+              <div className="online"/>
+              <span>Adrien</span>
+          </div>
+          </div>
+          <div className="user">
+          <div className="userInfo">
+              <img src="https://media.istockphoto.com/id/1365436662/fr/photo/fructueux-partenariat.jpg?s=1024x1024&w=is&k=20&c=Yd57sKfruyhca6kiR0G1fu2Omcz942Uz7BnTCK-f3TI=" alt="travaille entre copain" />
+              <div className="online"/>
+              <span>Jaqueline</span>
+          </div>
+          </div>
+
+
         </div>
       </div>
     </div>
